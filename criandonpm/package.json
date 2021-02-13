@@ -1,0 +1,15 @@
+{
+  "name": "exemplo",
+  "version": "1.0.0",
+  "description": "exemplo da",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "romulo",
+  "license": "ISC",
+  "dependencies": {
+    "sabe": "^1.0.0",
+    "string": "^3.3.3"
+  }
+}
