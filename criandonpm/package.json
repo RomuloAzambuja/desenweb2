@@ -9,6 +9,7 @@
   "author": "romulo",
   "license": "ISC",
   "dependencies": {
+    "colors": "^1.4.0",
     "sabe": "^1.0.0",
     "string": "^3.3.3"
   }
