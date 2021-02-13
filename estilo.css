@@ -1,6 +1,12 @@
-#inicio {
-    
+*{
+    font-family: verdana,geneva,sans-serif;
+    font-size: 12px;
 }
-#tabela{
+#menuinicio{
+    width: 150px;
+    _width:120px;
+    border: 3px inset #cccc;
+    padding: 5px;
+    
     
 }
