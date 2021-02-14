@@ -1,3 +1,10 @@
-const http = require('http');
+const express = require ('express');
+const app = express();
+const path= require ('path');
+const routher = express.Router();
 
-const hostname = '127.0.0.1';
+
+app.get('/', function (req,res){
+    res.send('Olá mundo')
+});
+app.listen(3000;)
