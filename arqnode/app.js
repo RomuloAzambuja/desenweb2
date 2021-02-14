@@ -5,7 +5,7 @@ const routher = express.Router();
 const port = 3000;
 
 app.get('/',(req,res)=> {
-    res.send('Olá mundo')
+    res.sendFile(__dirname + '/recurso/index.html')
 });
 app.listen(port,() => {
     console.log('teste ouvindo porta')
