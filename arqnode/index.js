@@ -2,9 +2,11 @@ const express = require ('express');
 const app = express();
 const path= require ('path');
 const routher = express.Router();
+const port = 3000;
 
-
-app.get('/', function (req,res){
+app.get('/',(req,res)=> {
     res.send('Olá mundo')
 });
-app.listen(3000;)
+app.listen(port,() => {
+    console.log('teste ouvindo porta')
+});
