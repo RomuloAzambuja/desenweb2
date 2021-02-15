@@ -10,3 +10,4 @@ app.get('/',(req,res)=> {
 app.listen(port,() => {
     console.log('teste ouvindo porta')
 });
+// para o sistema ouvir a porta no prompt de comando digitar 
