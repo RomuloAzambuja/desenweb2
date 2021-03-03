@@ -6,7 +6,7 @@ const port = 3000;
 
 app.get('/',(req,res)=> {
     // utilizo o __dirname para indicar o diretorio atual 
-    res.sendFile(__dirname + '/recurso/index.html')
+    res.sendFile(__dirname + '/index.html')
 });
 app.listen(port,() => {
     console.log('teste ouvindo porta')
