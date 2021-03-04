@@ -1,14 +1,10 @@
 const express = require ('express');
+const path = require ('path');
 const app = express();
-const path= require ('path');
-const routher = express.Router();
 const port = 3000;
 
-app.get('/',(req,res)=> {
-    // utilizo o __dirname para indicar o diretorio atual 
-    //res.sendFile(__dirname + '/index.html')
-    app.use(express.static('/desenewb2'))
-});
+//codigo que funciona tive que mover os arquivos estaticos para uma pasta para funcionar o link
+app.use(express.static(path.join(__dirname,'publico')));
 
 app.listen(port,() => {
     console.log('teste ouvindo porta')
